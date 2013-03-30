@@ -28,14 +28,14 @@ import android.view.View.OnTouchListener;
 import java.util.ArrayList;
 import java.util.List;
 
-public class EasyDrawView extends View implements OnTouchListener {
+public class SimpleDrawView extends View implements OnTouchListener {
 
     private static final float STROKE_WIDTH = 5f;
 
     List<Point> points = new ArrayList<Point>();
     Paint paint = new Paint();
 
-    public EasyDrawView(Context context, AttributeSet attributeSet) {
+    public SimpleDrawView(Context context, AttributeSet attributeSet) {
         super(context, attributeSet);
         setFocusable(true);
         setFocusableInTouchMode(true);

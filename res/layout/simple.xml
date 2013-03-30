@@ -21,18 +21,13 @@
               android:layout_width="fill_parent"
               android:layout_height="fill_parent"
         >
-    <TextView
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="Hello World, MyActivity"
-            />
     <Button xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="Clear"
             android:id="@+id/clearbutton"/>
-    <org.example.androiddraw.EasyDrawView
-            android:id="@+id/easydrawview"
+    <org.example.androiddraw.SimpleDrawView
+            android:id="@+id/simpledrawview"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"/>
 </LinearLayout>

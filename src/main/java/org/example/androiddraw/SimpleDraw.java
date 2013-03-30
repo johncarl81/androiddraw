@@ -23,14 +23,14 @@ import org.androidtransfuse.annotations.RegisterListener;
 import javax.inject.Inject;
 
 @Activity(label = "@string/app_name")
-@Layout(R.layout.easy)
-public class EasyDraw {
+@Layout(R.layout.simple)
+public class SimpleDraw {
 
-    private EasyDrawView drawView;
+    private SimpleDrawView drawView;
 
     @Inject
-    @org.androidtransfuse.annotations.View(R.id.easydrawview)
-    public EasyDraw(EasyDrawView drawView) {
+    @org.androidtransfuse.annotations.View(R.id.simpledrawview)
+    public SimpleDraw(SimpleDrawView drawView) {
         this.drawView = drawView;
     }
 

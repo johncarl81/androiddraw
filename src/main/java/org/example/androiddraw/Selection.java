@@ -48,10 +48,10 @@ public class Selection {
         this.listActivity = listActivity;
 
         values = new ArrayList<ActivityListItem>(Arrays.asList(new ActivityListItem[]{
-                createLI(EasyDrawActivity.class, "Easy Draw"),
-                createLI(SquareSignatureDrawActivity.class, "Square Signature"),
+                createLI(SimpleDrawActivity.class, "Simple Draw"),
                 createLI(QuadDrawActivity.class, "Quad Draw"),
                 createLI(CubicDrawActivity.class, "Cubic Splines Draw"),
+                createLI(SquareSignatureDrawActivity.class, "Square Signature"),
         }));
 
         ArrayAdapter<ActivityListItem> adapter = new ArrayAdapter<ActivityListItem>(listActivity, android.R.layout.simple_list_item_1, values);
